@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse síte em vários dispositivos diferentes ou símplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/FOTO-P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagem/FOTO-M.png" type="image/PNG">
+        <img src="Imagem/FOTO-G.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Night at the Dance Hall - Twin Musicom.mp3" type="audio/mpeg">
+        <source src="midia/Night at the Dance Hall - Twin Musicom.mp3"
+        type="audio/ogg">
+        <source src="midia/Night at the Dance Hall - Twin Musicom.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Night at the Dance Hall - Twin Musicom.mp3">Clique aqui para fazer o download do áudio MP3</a></p>
+    </audio>
+
+</body>
+</html>
